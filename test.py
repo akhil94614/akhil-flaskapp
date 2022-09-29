@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, app
 
 import pymysql
 
@@ -35,4 +35,4 @@ def users():
 
 
 if __name__ == '__main__':
-    test.run(debug=True)
+    test.run(port=8000)
