@@ -35,4 +35,4 @@ def users():
 
 
 if __name__ == '__main__':
-    test.run(port=8000)
+    test.run(host= '0.0.0.0')
